@@ -45,7 +45,7 @@ class AnimationTextState extends State<AnimatedTextWidget>
 
   @override
   void dispose() {
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
 }
